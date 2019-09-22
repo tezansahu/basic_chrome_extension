@@ -1,0 +1,21 @@
+{
+  "name": "My ToDo: Workloads Simplified...",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "An extension to manage your ToDo Lists",
+  "homepage_url": "https://tezansahu.github.io",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "browser_action": {
+    "default_icon": "icons/icon19.png",
+    "default_title": "My ToDo: Workloads Simplified...",
+    "default_popup": "src/browser_action/browser_action.html"
+  },
+  "permissions": [
+      "storage"
+  ]
+}
